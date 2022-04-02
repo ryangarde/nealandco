@@ -1,0 +1,110 @@
+.contact-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  background-image: url('../../assets/images/Group 6.png');
+  padding: 8rem 18rem;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 15rem;
+
+  @media screen and (max-width: 1024px) {
+    background-position: 62% center;
+    padding: 8rem 6rem;
+  }
+
+  @media screen and (max-width: 900px) and (orientation: landscape) {
+    background-position: 64% center;
+    padding: 8rem 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    background-position: left center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 460px) {
+    padding: 3rem;
+  }
+
+  .left {
+    width: 57%;
+    padding-right: 3rem;
+
+    @media screen and (max-width: 1024px) {
+      width: 55%;
+    }
+
+    @media screen and (max-width: 900px) and (orientation: landscape) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 80%;
+      padding-right: 0;
+    }
+
+    @media screen and (max-width: 460px) {
+      width: 100%;
+    }
+
+    .main-title {
+      font-size: 3.4rem;
+      letter-spacing: 0.2rem;
+
+      @media screen and (max-width: 900px) and (orientation: landscape) {
+        font-size: 2.8rem;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .form {
+    margin-top: 2rem;
+  }
+
+  .input {
+    margin-bottom: 1rem;
+  }
+
+  .right {
+    letter-spacing: 0.2rem;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 6rem;
+    }
+
+    @media screen and (max-width: 460px) {
+      margin-top: 10rem;
+    }
+
+    .logo {
+      width: 28rem;
+
+      @media screen and (max-width: 1024px) {
+        width: 23rem;
+      }
+    }
+
+    .secondary-title {
+      color: goldenrod;
+    }
+
+    .content {
+      margin-left: 1rem;
+      vertical-align: top;
+    }
+
+    .line {
+      height: 0.1rem;
+      width: 15rem;
+      background-color: white;
+      margin: 2rem auto 4.5rem auto;
+    }
+  }
+}

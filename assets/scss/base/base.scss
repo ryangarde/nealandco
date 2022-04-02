@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5% !important;
+  scroll-behavior: smooth;
+
+  @media screen and(max-width: 1024px) {
+    font-size: 56.25%;
+  }
+
+  @media screen and(max-width: 460px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.admin-container {
+  .page-enter-active,
+  .page-leave-active {
+    transition: 0.15s;
+  }
+  .page-enter,
+  .page-leave-to {
+    opacity: 0;
+  }
+}

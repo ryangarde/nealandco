@@ -1,0 +1,112 @@
+.goal {
+  padding: 8rem 15vw 10rem 15vw;
+  letter-spacing: 0.1rem;
+
+  @media screen and(max-width: 1024px) {
+    padding: 7rem 10vw 8rem 10vw;
+  }
+
+  @media screen and (max-width: 900px) and (orientation: landscape) {
+    padding: 7rem 8vw 8rem 8vw;
+  }
+
+  @media screen and(max-width: 768px) {
+    padding: 7rem 6vw 8rem 6vw;
+  }
+
+  @media screen and(max-width: 460px) {
+    padding: 7rem 10vw 8rem 10vw;
+  }
+
+  .main-title {
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+    padding-left: 3.5rem;
+
+    @media screen and(max-width: 768px) {
+      padding-left: 0;
+    }
+
+    @media screen and(max-width: 460px) {
+      font-size: 3.8rem;
+    }
+  }
+
+  .description {
+    font-size: 2.1rem;
+    padding-left: 3.5rem;
+
+    @media screen and(max-width: 1024px) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and(max-width: 768px) {
+      font-size: 1.6rem;
+      padding-left: 0;
+    }
+  }
+
+  .slogan {
+    font-size: 3rem;
+    width: 55vw;
+    margin: 12rem auto 0 auto;
+    letter-spacing: 0.5rem;
+
+    @media screen and(max-width: 1024px) {
+      font-size: 2.5rem;
+      width: 90%;
+    }
+
+    @media screen and(max-width: 460px) {
+      font-size: 2.3rem;
+      margin-top: 9rem;
+      width: 100%;
+      letter-spacing: 0.1rem;
+    }
+
+    @media screen and(max-width: 350px) {
+      font-size: 2rem;
+    }
+  }
+
+  .line {
+    background-color: grey;
+    height: 0.1rem;
+    width: 60rem;
+    margin: 4rem auto;
+
+    @media screen and(max-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .button.blue-btn {
+    letter-spacing: 0.1rem;
+    margin: 0 2rem;
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    font-weight: normal;
+
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+      font-size: 1.3rem;
+      margin: 0 1rem;
+    }
+
+    @media screen and (max-width: 600px) and (orientation: landscape) {
+      padding: 1rem 1.5rem;
+    }
+
+    @media screen and(max-width: 460px) {
+      width: 100%;
+      margin: 0 1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}

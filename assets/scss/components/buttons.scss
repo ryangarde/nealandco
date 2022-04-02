@@ -1,0 +1,37 @@
+.v-application .button, .button {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  padding: 0.7rem 2.5rem;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  text-align: center;
+
+  &.transparent-btn {
+    border-color: white;
+  }
+
+  &.white-btn {
+    border-color: black;
+    color: black;
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+
+  &.blue-btn {
+    background-color: $color-primary;
+    border-color: transparent;
+    color: white;
+
+    &:hover {
+      background-color: darken($color-primary, 3%);
+    }
+  }
+}
+
+.v-btn.v-size--large {
+  font-size: 1.4rem !important;
+}

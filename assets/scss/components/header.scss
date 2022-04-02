@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  background-image: url('../../assets/images/COVER.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width: 100%;
+
+  &.with-animation {
+    animation: shrinkHeader 0.5s;
+  }
+
+  &-title {
+    position: absolute;
+    left: 7%;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 4.5rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.8);
+    animation: headerTitleAnimation 0.4s;
+  }
+}

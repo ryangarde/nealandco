@@ -1,0 +1,66 @@
+.about-us {
+  background-image: url('../../assets/images/Group 4.png');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 12rem 4rem;
+  letter-spacing: 0.8rem;
+
+  @media screen and (max-width: 680px) and (orientation: landscape) {
+    padding: 6rem 4rem;
+  }
+
+  .main-title {
+    font-size: 5rem;
+
+    @media screen and (max-width: 680px) and (orientation: landscape) {
+      font-size: 4.2rem;
+    }
+
+    @media screen and (max-width: 460px) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: 350px) {
+      font-size: 3.2rem;
+    }
+  }
+
+  .line {
+    background-color: white;
+    height: 0.1rem;
+    width: 67rem;
+    margin: 2rem auto 3rem auto;
+
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 460px) {
+      width: 100%;
+    }
+  }
+
+  .description {
+    font-size: 2.7rem;
+    margin: 0 auto;
+    width: 75%;
+    letter-spacing: 0.6rem;
+
+    @media screen and (max-width: 680px) and (orientation: landscape) {
+      font-size: 2.4rem;
+      letter-spacing: 0.3rem;
+    }
+
+    @media screen and (max-width: 460px) {
+      width: 100%;
+      font-size: 2.3rem;
+      letter-spacing: 0.2rem;
+    }
+
+    @media screen and (max-width: 350px) {
+      font-size: 2rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+}

@@ -1,0 +1,184 @@
+.v-application {
+  font-family: 'Lato' !important;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .v-carousel {
+    .v-window__container {
+      // height: calc(100% - 50px) !important;
+      padding-bottom: 50px;
+    }
+  } 
+}
+
+.v-select-list {
+  .v-list-item__title {
+    font-size: 1.6rem;
+  }
+}
+
+.v-dialog {
+  .v-card {
+    padding: 2.4rem;
+
+    &.no-padding {
+      padding: unset;
+    }
+
+    &.featured-properties {
+      cursor: pointer;
+      transition: 0.2s;
+      border: 0.25rem solid transparent;
+
+      &:hover {
+        border-color: #007bff;
+
+        &.invalid {
+          border-color: red;
+        }
+
+        &.invalid.active {
+          border-color: #007bff;
+        }
+      }
+
+      &.active {
+        border-color: #007bff;
+      }
+    }
+  }
+
+  .v-card__title {
+    font-size: 1.6rem !important;
+    padding: 0 !important;
+    padding-bottom: 1.5rem !important;
+  }
+
+  .v-card__text {
+    font-size: 1.5rem !important;
+    line-height: unset !important;
+    letter-spacing: unset !important;
+    padding: 0 !important;
+
+    &.padding {
+      padding: 1.6rem !important;
+    }
+  }
+}
+
+.offer-property.v-dialog {
+  width: 80vw !important;
+}
+
+.v-navigation-drawer__content {
+  .v-list-item.active {
+    background-color: rgba(white, 0.2);
+  }
+
+  a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 0.7rem;
+    border-radius: 0.4rem;
+
+    &.active {
+      background-color: rgba(white, 0.2);
+    }
+  }
+
+  .v-list-item__content {
+    .v-list-item__title {
+      font-size: 1.6rem !important;
+      line-height: unset !important;
+      font-weight: normal !important;
+    }
+  }
+}
+
+.admin-container {
+  padding: 4rem 4rem 5rem 28.6rem;
+  transition: 0.2s;
+
+  &.expand {
+    padding-left: calc(5.8rem + 4rem);
+  }
+
+  &.expand-more {
+    padding-left: 4rem;
+  }
+
+  .v-card {
+    .v-toolbar__title {
+      font-size: 1.6rem;
+    }
+
+    .v-card__actions {
+      padding: 1.6rem;
+    }
+
+    .v-card__title {
+      font-size: 1.8rem;
+    }
+  }
+
+  .v-data-table {
+    td,
+    th {
+      font-size: 1.5rem;
+    }
+
+    .v-data-footer {
+      font-size: 1.4rem;
+    }
+
+    .v-data-footer__select .v-select__selections .v-select__selection--comma {
+      font-size: 1.5rem;
+    }
+
+    .v-list-item__title {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.v-pagination {
+  .v-pagination__item {
+    font-size: 1.6rem;
+    margin: 0.5rem;
+  }
+}
+
+.v-snack {
+  .v-snack__content {
+    font-size: 1.6rem;
+  }
+
+  .v-btn .v-btn__content {
+    font-size: 1.4rem;
+  }
+}
+
+.v-card.with-padding {
+  padding: 1.5rem;
+}
+
+.v-image__image {
+  background-color: black;
+}
+
+// .v-window {
+//   &-x-transition,
+//   &-x-reverse-transition,
+//   &-y-transition,
+//   &-y-reverse-transition {
+//     &-enter-active,
+//     &-leave-active {
+//       transition: 0.6s;
+//     }
+//   }
+// }

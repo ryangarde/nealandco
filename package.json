@@ -1,0 +1,36 @@
+{
+  "name": "cms_front2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "quill": "^1.3.7",
+    "quill-image-resize-module": "^3.0.0",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.4.1",
+    "vue-quill": "^1.5.1",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify": "^2.6.1",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.11",
+    "sass-loader": "^10.2.1"
+  }
+}

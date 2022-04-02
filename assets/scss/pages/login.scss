@@ -1,0 +1,14 @@
+.login {
+  height: 100vh;
+  width: 100%;
+
+  .v-card {
+    .v-toolbar__title {
+      font-size: 1.6rem;
+    }
+
+    .v-card__actions {
+      padding: 1.6rem;
+    }
+  }
+}

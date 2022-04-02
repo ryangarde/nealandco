@@ -1,0 +1,12 @@
+.properties {
+  margin: 4rem auto;
+  width: 80vw;
+
+  @media screen and(max-width: 1024px) {
+    width: 90vw;
+  }
+
+  @media screen and(max-width: 460px) {
+    width: 90vw;
+  }
+}

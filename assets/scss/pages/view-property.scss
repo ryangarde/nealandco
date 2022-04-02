@@ -1,0 +1,137 @@
+.view-property {
+  margin: 10rem 18rem 20rem 18rem;
+  font-size: 1.8rem;
+
+  @media screen and (max-width: 1400px) {
+    margin: 10rem 13rem 20rem 13rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    font-size: 1.6rem;
+    margin: 10rem 7rem 20rem 7rem;
+  }
+
+  @media screen and (max-width: 850px) {
+    margin: 10rem 6rem 20rem 6rem;
+  }
+
+  @media screen and (max-width: 460px) {
+    margin: 4rem 2rem;
+  }
+
+  .v-carousel__item {
+    height: 90vh !important;
+
+    @media screen and (max-width: 1200px) {
+      height: 60vh !important;
+    }
+  }
+
+  .image {
+    width: 100%;
+    height: 90vh;
+
+    &.default {
+      background-size: 60%;
+      background-position: center;
+      background-image: url('../../assets/images/home_default.jpg');
+    }
+  }
+
+  .status {
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .price {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .property-id,
+  .property-type {
+    font-size: 2rem;
+    color: grey;
+    display: inline-block;
+    margin-right: 6rem;
+    margin-top: 1rem;
+
+    @media screen and (max-width: 460px) {
+      margin-right: 0;
+    }
+  }
+
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+
+    @media screen and (max-width: 1200px) {
+      flex-wrap: nowrap;
+    }
+
+    @media screen and (max-width: 960px) {
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      margin-right: 2rem;
+
+      @media screen and (max-width: 960px) {
+        margin-bottom: 3rem;
+      }
+
+      @media screen and (max-width: 460px) {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .icon {
+      color: black;
+      font-size: 4rem;
+      margin-right: 2rem;
+    }
+
+    .number {
+      font-size: 2.8rem;
+    }
+
+    .text {
+      width: 100%;
+      font-size: 1.4rem;
+      letter-spacing: 0.2rem;
+      font-weight: bold;
+    }
+  }
+
+  .main-title {
+    font-size: 2.1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+
+  .description {
+    white-space: pre-wrap;
+  }
+
+  .list {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .white-btn {
+    padding: 1.5rem 4rem;
+  }
+}
