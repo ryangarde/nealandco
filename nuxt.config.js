@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - cms_front2',
+    titleTemplate: '%s',
     title: 'Neal & Co. Realty',
     htmlAttrs: {
       lang: 'en',
